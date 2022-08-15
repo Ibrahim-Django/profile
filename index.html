@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ibrahim Syed</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="./Images/cloud.png" alt="cloud-img" />
+      <h1>I'm Ibrahim</h1>
+      <h2 id="word">a programmer.</h2>
+      <img class="bottom-cloud" src="./Images/cloud.png" alt="cloud-img" />
+      <img src="./Images/mountain.png" class="mountain" alt="mountain-img" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="./Images/ibrahim.jpg" height="200" width="200" alt="" />
+        <h2>Hello.</h2>
+        <p class="intro">
+          Hi my name is Ibrahim Syed, I am from Pakistan. I am learning web
+          development. I love chicken and cocacola.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="code-img" src="./Images/computer.png" alt="" />
+          <h3>Design and Development</h3>
+          <p>
+            I was learning to code when I was 18 year old beacause I wanted to
+            make my own video games overtime. Now I have a little bit expierence
+            in making websites and web applications.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="chilli-img" src="./Images/chillies.png" alt="" />
+          <h3>Hot wings challenge</h3>
+          <p>
+            But my best skill is actually eating in hot wings. No one can defeat
+            me except my cousine"Daim". Chilli garlic is one of my favourite
+            sauces.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div
+        class="contact-me"
+        style="
+          background-image: url('./cool-background.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      >
+        <h2>Get In Touch</h2>
+        <h3>If you love hot wings as much I do.</h3>
+        <p class="contact-message">
+          Love hot wings as much I do? Let's talk about how awesome they are!We
+          can code while we eat hot wings!
+        </p>
+        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p>Copyright@2021 Ibrahim Syed.</p>
+    </div>
+
+    <canvas class="background"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+    <script>
+      window.onload = function () {
+        Particles.init({
+          selector: ".background",
+          connectParticles: !true,
+          maxParticles: 300,
+          color: "white",
+          speed: 0.5,
+        });
+      };
+    </script>
+  </body>
+</html>
